@@ -1,0 +1,188 @@
+.container {
+  max-width: 768px;
+}
+
+/* HEADER */
+
+.logo-link {
+  padding: 24px 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.current {
+  position: relative;
+  color: var(--accent-color);
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.menu-btn {
+  display: none;
+}
+
+.address {
+  display: block;
+  font-style: normal;
+}
+
+.menu-address-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.address-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #434455;
+}
+
+/* HERO */
+
+.hero-section {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 112px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet/background-image/Dark-bg-min.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet/background-image/Dark-bg@2x-min.jpg);
+  }
+}
+
+.main-header-logo {
+  max-width: 496px;
+  margin-bottom: 36px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+/* FEATURES */
+
+.features-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 72px 24px;
+}
+
+.features-list-items {
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.feature-title {
+  text-align: left;
+}
+
+/* OUR TEAM */
+
+.team-list {
+  gap: 64px 24px;
+}
+
+.our-team-card {
+  flex-basis: calc((100% - 24px) / 2);
+  max-width: 264px;
+}
+
+/* PORTFOLIO */
+
+.portfolio-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 72px 24px;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 24px) / 2);
+  max-width: 356px;
+}
+
+/* FOOTER */
+
+.footer-cont {
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  align-items: baseline;
+  max-width: 584px;
+}
+
+.logo-footer {
+  text-align: left;
+}
+
+.footer-p {
+  max-width: 264px;
+}
+
+.footer-links-title {
+  text-align: left;
+}
+
+.footer-links-title {
+  text-align: left;
+}
+
+.footer-subscribe-form {
+  gap: 24px;
+  flex-direction: row;
+}
+
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+.modal {
+  width: 408px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+/* BURGER MENU */
+
+.mobile-menu {
+  display: none;
+}
