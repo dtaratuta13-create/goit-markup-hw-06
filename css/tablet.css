@@ -176,6 +176,11 @@
 
 /* FOOTER */
 
+.main-footer-logo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .footer-cont {
   flex-direction: row;
   flex-wrap: wrap;
@@ -233,5 +238,12 @@
 
   .menu-btn {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
