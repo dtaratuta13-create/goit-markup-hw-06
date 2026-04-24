@@ -36,10 +36,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+/*
 .nav-list {
   display: none;
 }
+*/
 
 .logo-link {
   display: block;
@@ -57,9 +58,11 @@ body {
   color: #2e2f42;
 }
 
+/*
 .address {
   display: none;
 }
+*/
 
 .menu-btn {
   display: flex;
