@@ -325,7 +325,8 @@ body {
 /* FOOTER */
 
 .main-footer-logo {
-  padding-top: 96px;
+  padding-top: 96px; 
+  padding-bottom: 96px;
   background-color: var(--secondary-background-color);
 }
 
@@ -761,6 +762,12 @@ body {
   pointer-events: auto;
   transform: translateX(0%);
   transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .modal {

@@ -6,6 +6,7 @@
 
 .logo-link {
   padding: 24px 0;
+  margin-right: 120px;
 }
 
 .navigation {
@@ -71,6 +72,18 @@
   letter-spacing: 0.04em;
   color: #434455;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .address-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+}
+
+
 
 /* HERO */
 

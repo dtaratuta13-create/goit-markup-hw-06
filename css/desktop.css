@@ -51,6 +51,17 @@
   display: flex;
 }
 
+@media screen and (min-width: 1158px) {
+  .address-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
+
 .menu-address-list-item:not(:last-child) {
   margin-bottom: 0;
 }
@@ -123,6 +134,12 @@
 
 .features-icon-items {
   display: flex;
+}
+
+@media screen and (min-width: 1158px) {
+  .features-icon-items {
+    display: flex;
+  }
 }
 
 .feature-title {
@@ -246,4 +263,8 @@
   .features-icon-items {
     display: flex;
   }
+}
+
+.logo-link {
+  margin-right: 76px;
 }
