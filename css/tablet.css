@@ -98,6 +98,11 @@
     gap: 72px 24px;
   }
 
+    .portfolio-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+
   .features-list-items {
     width: calc((100% - 24px) / 2);
   }
