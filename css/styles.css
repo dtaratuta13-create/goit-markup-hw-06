@@ -1,3 +1,5 @@
+/* --- CSS --- */
+
 /* -------------global------------- */
 
 body {
@@ -474,7 +476,7 @@ margin-bottom: 8px;
   background-color: #2e2f42;
   text-decoration: none;
 
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .footer-container {
@@ -794,7 +796,8 @@ margin-bottom: 8px;
 
 .form-paragraph {
   margin-bottom: 16px;
-  width: 360px;
+  width: 100%;
+  max-width: 100%;
   height: 24px;
 
   font-weight: 500;

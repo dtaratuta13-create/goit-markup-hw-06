@@ -1,3 +1,5 @@
+/* --- tablet --- */
+
 .container {
   max-width: 768px;
 }
@@ -150,8 +152,10 @@
   flex-basis: calc((100% - 24px) / 2);
 }
 
-.feature-title {
-  text-align: left;
+@media screen and (min-width: 768px) {
+  .feature-title {
+    text-align: left;
+  }
 }
 
 /* OUR TEAM */
@@ -183,8 +187,10 @@
 
 /* FOOTER */
 
-.main-footer-logo {
- padding: 100px 0;
+@media screen and (min-width: 768px) {
+  .main-footer-logo {
+    padding: 80px 0;
+  }
 }
 
 .footer-cont {
@@ -278,10 +284,6 @@
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-}
-
-.features-icon-items {
-  display: none;
 }
 
 @media screen and (min-width: 768px) {
