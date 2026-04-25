@@ -186,6 +186,7 @@
   transition: box-shadow 250ms ease;
   width: calc((100% - 48px) / 3)
 }
+}
 
 .portfolio-card:hover,
 .portfolio-card:focus {
