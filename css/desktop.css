@@ -68,11 +68,9 @@
 
 .menu-address-list-item:not(:last-child) {
   margin-bottom: 0;
-}
-
-.menu-address-list-item:not(:last-child) {
   margin-right: 40px;
 }
+
 
 .address-link {
   display: block;

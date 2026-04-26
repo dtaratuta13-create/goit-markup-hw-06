@@ -83,13 +83,17 @@ img {
 
 .header .flex-container {
   justify-content: flex-start;
-  gap: 76px;
+  gap: 120px;
 }
 
 .nav-list,
 .address {
   display: none;
 }
+
+.logo-link:not(:last-child) {
+    margin-right: 120px;
+  }
 
 .menu-btn {
   display: flex;
@@ -103,12 +107,10 @@ img {
 
   .address {
     display: block;
+      margin-left: auto;
+
   }
 
-  .address-list {
-    flex-direction: column;
-    gap: 12px;
-  }
 
   .address-link {
     padding-top: 0;
@@ -157,6 +159,8 @@ img {
 /* -------------Address------------- */
 .address-list {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .address-link {
