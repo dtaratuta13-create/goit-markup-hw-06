@@ -272,7 +272,7 @@
   .footer-subscribe-form {
     flex-direction: row;
     gap: 16px;
-    align-items: center;
+    align-items: left;
   }
 }
 
