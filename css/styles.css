@@ -80,6 +80,12 @@ img {
   display: flex;
   align-items: center;
 }
+
+.header .flex-container {
+  justify-content: flex-start;
+  gap: 76px;
+}
+
 .nav-list,
 .address {
   display: none;
@@ -92,6 +98,7 @@ img {
 @media screen and (min-width: 768px) {
   .nav-list {
     display: flex;
+    gap: 40px;
   }
 
   .address {
@@ -139,9 +146,6 @@ img {
   }
 }
 
-.nav-list-item:not(:last-child) {
-  margin-right: 40px;
-}
 
 * {
   margin: 0;
@@ -176,8 +180,9 @@ img {
   color: #404bbf;
 }
 
-.menu-address-list-item:not(:last-child) {
-  margin-right: 40px;
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 /* -------------Logo1------------- */
 
@@ -328,9 +333,19 @@ margin-bottom: 8px;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--primary-text-color);
 }
+
+.feature-title {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feature-title {
+    text-align: left;
+  }
+}
+
 
 .feature-desc {
   font-family: Roboto, sans-serif;
@@ -476,7 +491,8 @@ margin-bottom: 8px;
   background-color: #2e2f42;
   text-decoration: none;
 
-  padding: 60px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
