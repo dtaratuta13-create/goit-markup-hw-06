@@ -43,7 +43,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0;
 }
 
 
@@ -96,10 +95,14 @@ body {
 }
 
 .main-header-logo {
-  margin-bottom: 72px;
-  max-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 72px auto;
+  font-size: 36px;
+  line-height: 1.1;
+  max-width: 216px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -421,7 +424,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 }
 
 @media screen and (min-width: 768px) {

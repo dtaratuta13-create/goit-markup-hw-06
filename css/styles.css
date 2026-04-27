@@ -83,7 +83,6 @@ img {
 
 .header .flex-container {
   justify-content: flex-start;
-  gap: 120px;
 }
 
 .nav-list,
@@ -262,6 +261,8 @@ img {
 .hero-section {
   padding: 72px 0;
   text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -285,17 +286,16 @@ img {
 .main-header {
   background-color: #2e2f42;
   color: #ffffff;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .main-header-logo {
-  max-width: 288px;
-  margin: 0 auto 72px;
-
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  text-align: center;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 1.1;
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -600,7 +600,7 @@ margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 @media screen and (min-width: 768px) {
