@@ -67,7 +67,8 @@ body {
   background-color: var(--primary-background-color);
 }
 
-.visually-hidden {
+.visually-hidden,
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -85,6 +86,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 320px;
   padding-right: 16px;
   padding-left: 16px;
