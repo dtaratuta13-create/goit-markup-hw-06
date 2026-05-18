@@ -1,0 +1,115 @@
+/* --- CSS --- */
+/* Reset   */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  font-family: inherit;
+  outline: transparent;
+}
+
+/* Variables */
+
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-tex-color: #434455;
+  --primary-background-color: #fff;
+  --secondary-background-color: #2e2f42;
+  --tertiary-background-color: #f4f4fd;
+  --accent-color: #404bbf;
+  --base-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Mobile base */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--secondary-tex-color);
+  background-color: var(--primary-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 320px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .section {
+    padding: 120px 0;
+  }
+}

@@ -1,0 +1,121 @@
+/* Mobile menu */
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background-color: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateX(100%);
+  transition: opacity var(--base-transition), visibility var(--base-transition),
+    transform var(--base-transition);
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.mobile-menu-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.menu-close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 50%;
+}
+
+.mobile-menu-navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menu-navigation-link-studio,
+.menu-navigation-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.menu-navigation-link-studio {
+  color: #404bbf;
+}
+
+.menu-navigation-link {
+  color: var(--primary-text-color);
+}
+
+.mobile-menu-address {
+  margin-bottom: 48px;
+  font-style: normal;
+}
+
+.mobile-menu-address .address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu-address-tel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #4d5ae5;
+}
+
+.menu-address-email {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-tex-color);
+}
+
+.menu-social-link-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color var(--base-transition);
+}
+
+.menu-social-link:hover,
+.menu-social-link:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
