@@ -81,6 +81,12 @@
   fill: #f4f4fd;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .our-team {
+    padding: 96px 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team-list {
     flex-direction: row;

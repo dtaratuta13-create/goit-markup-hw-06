@@ -47,9 +47,6 @@
     text-align: left;
   }
 
-  .feature-desc {
-    font-weight: 400;
-  }
 }
 
 @media screen and (min-width: 1158px) {
